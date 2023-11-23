@@ -1,0 +1,89 @@
+#planets-header {
+  background: url(imagen\ fondo.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+  color: #ffffff;
+  text-shadow: 10px;
+}
+
+#planets-header > h2 {
+  font-size: 56px;
+}
+
+#saturn-header {
+  background: url(saturnoHeader2.webp) no-repeat center fixed;
+  background-size: cover;
+  margin: 50px 0 0 0;
+  padding: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#saturn-header > h2 {
+  font-size: 40px;
+}
+
+#neptune-header {
+  background: url(neptuno\ fondo.jpg) no-repeat center fixed;
+  background-size: cover;
+  margin: 50px 0 0 0;
+  padding: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#neptune-header > h2 {
+  font-size: 40px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.intro {
+  padding: 30px 10px;
+}
+
+.intro > h3 {
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+
+.intro-planet > h3 {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+.planets-wrap {
+  padding: 20px;
+  align-items: center;
+}
+
+.planet-fact, .planets-fact {
+  background-color: #dfdcdc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+
+.fact-header {
+  font-size: 24px;
+}
+
+.planet-fact {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.planet-fact > img {
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
